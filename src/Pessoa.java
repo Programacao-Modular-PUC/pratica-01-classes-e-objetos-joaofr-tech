@@ -8,6 +8,14 @@ public class Pessoa {
     private double peso;
     private double IMC;
 
+    public Pessoa(String nome, String sobrenome, int idade, double altura, double peso) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.idade = idade;
+        this.altura = altura;
+        this.peso = peso;
+    }
+
     public void calculaIMC(){
         this.IMC = this.peso/pow(altura, 2);
     }
