@@ -17,7 +17,7 @@ public class Pessoa {
     }
 
     public void calculaIMC(){
-        this.IMC = this.peso/pow(altura, 2);
+        this.IMC = this.peso/pow(this.altura, 2);
     }
 
     public void informaObesidade(){
